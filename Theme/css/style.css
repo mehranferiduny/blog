@@ -1,0 +1,85 @@
+/*-----------------
+Fonts
+-------------------*/
+@font-face {
+    font-family: "Vazir";
+    src: url(../webfonts/Vazir-Regular.ttf);
+}
+body{
+    font-family: 'Vazir'!important;
+   
+}
+#home{
+    background-color: #fdfdfd;
+}
+.imagepost{
+    object-fit: cover !important;
+    height:250px !important
+}
+.userimg{
+    object-fit: cover !important;
+}
+.home-img{
+    background-image: url(../img/back.png);
+    object-fit: cover;
+}
+.btncatgory{
+    border: none !important;
+    border-bottom: 1px solid #21252945 !important;
+    border-radius: 6px !important;
+}
+.card-post{
+    border-radius: 6px !important;
+}
+.titlepost{
+    text-decoration: none;
+    color:#2c2c2c !important;
+}
+.btn-moro{
+    background-color: #fdfdfd !important;
+    border: none !important;
+    color: #15589a !important;
+    border-bottom: 1px solid #15589a !important;
+    border-radius: 0px !important;
+}
+.btn-moro:hover{
+    background-color: #15589a !important;
+    border-radius: 6px !important; 
+    color: #fdfdfd !important;
+}
+.btncatgory:hover{
+    background-color: #15589a !important;
+}
+.text-crate {
+    margin-right: 80px;
+}
+.btn-top:hover{
+    border-bottom: 1px solid #78787878;
+}
+.titelblog{
+    position: absolute;
+    margin-right: 50px !important;
+}
+.serchb{
+    position: absolute;
+    left: 0;
+    margin-left: 50px !important;
+}
+.sherchinput{
+    width: 250px !important;
+    border: none ;
+    display: block;
+   border-bottom: 1px solid #78787878;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ 
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
